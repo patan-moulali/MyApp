@@ -12,8 +12,10 @@ namespace MyApp
         static void Main(string[] args)
         {
             SampleClass.PrintString();
-            Console.ReadLine();
+            Console.WriteLine("enter a string:");
+            string s = Console.ReadLine();
             
+      
         }
     }
 }
